@@ -1,0 +1,25 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+body {
+  overflow: hidden;
+}
+.hover-able-element {
+  width: 180px;
+  height: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover-able-element img {
+  width: 150px;
+  height: auto;
+}
